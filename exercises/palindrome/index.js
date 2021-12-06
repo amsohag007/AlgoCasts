@@ -9,6 +9,7 @@
 
 //way 1---------------------------------------------
 // function palindrome(str) {
+//   console.log(str, str.split("").reverse().join(" "));
 //   return str === str.split("").reverse().join("");
 // }
 

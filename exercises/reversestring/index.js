@@ -18,11 +18,9 @@
 
 //way-3
 function reverse(str) {
-  reverse = "";
+  let reverse = "";
   for (let char of str) {
-    // console.log(char);
     reverse = char + reverse;
-    // console.log(reverse);
   }
   return reverse;
 }

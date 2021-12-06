@@ -11,8 +11,9 @@
 //way - 1;
 // function chunk(array, size) {
 //   let chuncked = [];
+
 //   for (let elem of array) {
-//     let last = chuncked[chuncked.length - 1];
+//     const last = chuncked[chuncked.length - 1];
 //     if (!last || last.length === size) {
 //       chuncked.push([elem]);
 //     } else {
@@ -27,7 +28,6 @@
 function chunk(array, size) {
   let chuncked = [];
   let index = 0;
-
   while (index < array.length) {
     chuncked.push(array.slice(index, index + size));
     index += size;
